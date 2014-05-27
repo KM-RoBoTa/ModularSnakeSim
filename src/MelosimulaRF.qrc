@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icons/Atention.png</file>
+        <file>Icons/cancel.png</file>
+        <file>Icons/decreaseSpeed.png</file>
+        <file>Icons/EmailUs.png</file>
+        <file>Icons/Error.png</file>
+        <file>Icons/graphicOptions.png</file>
+        <file>Icons/heighfield.png</file>
+        <file>Icons/Help.png</file>
+        <file>Icons/increaseSpeed.png</file>
+        <file>Icons/Loading.png</file>
+        <file>Icons/Ok.png</file>
+        <file>Icons/oneFrameBW.png</file>
+        <file>Icons/oneFrameFW.png</file>
+        <file>Icons/Pause.png</file>
+        <file>Icons/physics.png</file>
+        <file>Icons/Play.png</file>
+        <file>Icons/SelectFile.png</file>
+        <file>Icons/SnakeOptions.png</file>
+        <file>Icons/stop.png</file>
+        <file>Icons/update.png</file>
+        <file>Icons/Screenshot.png</file>
+        <file>Icons/Prev.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>Resources/baldosa.bmp</file>
+        <file>Resources/dimensionesJunturas.jpeg</file>
+        <file>Resources/dimensionesModulo.jpeg</file>
+        <file>Resources/dimensionesFommy.jpeg</file>
+        <file>Resources/dimensionesJunturaFommy.jpeg</file>
+        <file>Resources/modelo1.png</file>
+        <file>Resources/modelo2.png</file>
+        <file>Resources/modelo2Dimensiones.png</file>
+        <file>Resources/modelo1Dimensiones.png</file>
+    </qresource>
+    <qresource prefix="/others">
+        <file>Resources/modulo.3ds</file>
+        <file>Resources/modelo3.3ds</file>
+        <file>Resources/modelo2.3ds</file>
+    </qresource>
+</RCC>

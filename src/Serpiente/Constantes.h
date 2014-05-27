@@ -1,0 +1,13 @@
+//#define H 0.05
+//#define W 0.032
+//#define L 0.04
+//#define	MASA 0.055
+//#define QUAT_X 1.0
+//#define QUAT_Y 0.0
+//#define QUAT_Z 0.0
+//#define QUAT_ANGULO 1.57079633
+//#define Posi_x 0.0
+//#define Posi_y 0.01
+//#define Posi_z 0.0
+//#define OFFSET_MODULO 0.018
+//#define	OFFSET_EJE 0.0135
