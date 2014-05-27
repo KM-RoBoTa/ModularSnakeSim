@@ -431,15 +431,15 @@ osg::ref_ptr <osg::Group> simOSG::DibujarEjes(double size)
     colorZ->push_back(osg::Vec4(0.0,0.0,1.0,1.0));
     XGeometry->setVertexArray(PuntosX.get()); 
     XGeometry->setColorArray(colorX.get()); 
-    XGeometry->setColorBinding(osg::Geometry::BIND_PER_PRIMITIVE); 
+    XGeometry->setColorBinding(osg::Geometry::BIND_PER_VERTEX);
     XGeometry->addPrimitiveSet(new osg::DrawArrays(GL_LINES,0,2));
     YGeometry->setVertexArray(PuntosY.get()); 
     YGeometry->setColorArray(colorY.get()); 
-    YGeometry->setColorBinding(osg::Geometry::BIND_PER_PRIMITIVE); 
+    YGeometry->setColorBinding(osg::Geometry::BIND_PER_VERTEX);
     YGeometry->addPrimitiveSet(new osg::DrawArrays(GL_LINES,0,2));
     ZGeometry->setVertexArray(PuntosZ.get()); 
     ZGeometry->setColorArray(colorZ.get()); 
-    ZGeometry->setColorBinding(osg::Geometry::BIND_PER_PRIMITIVE); 
+    ZGeometry->setColorBinding(osg::Geometry::BIND_PER_VERTEX);
     ZGeometry->addPrimitiveSet(new osg::DrawArrays(GL_LINES,0,2));
     
     
